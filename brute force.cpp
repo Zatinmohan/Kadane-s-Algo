@@ -1,19 +1,17 @@
-#include<bits/stdc++.h>
-
-using namespace std;
+#include<iostream>
 
 int main()
 {
 	int size;
 	int max_sum=INT_MIN,sum=0,temp;
 	
-	cin>>size;
+	std::cin>>size;
 	
 	int arr[size];
 	
 	for(int i=0;i<size;i++)
 	{
-		cin>>arr[i];
+		std::cin>>arr[i];
 	}
 	
 	for(int i=0;i<size;i++)
@@ -25,10 +23,10 @@ int main()
 				sum+=arr[j];
 				
 				if(sum>max_sum)
-					max_sum=sum;
+				  max_sum=sum;
 		}
 	}
 	
-	cout<<max_sum<<endl;
+	std::cout<<max_sum<<endl;
 	return 0;
 }

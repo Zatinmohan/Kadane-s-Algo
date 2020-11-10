@@ -1,7 +1,4 @@
-#include<bits/stdc++.h>
-
-using namespace std;
-
+#include<iostream>
 /*
  * example - 2 -3 4 -1 -2 1 5 -3
    output  - 7 
@@ -11,13 +8,13 @@ int main()
 {
   int size,max_sum=INT_MIN,sum=0;
   
-  cin>>size;							//size of array
+  std::cin>>size;							//size of array
   
   int arr[size];						//array inilisation
   
   for(int i=0;i<size;i++)
   {
-  	cin>>arr[i];						//input in array
+  	std::cin>>arr[i];						//input in array
   }
   
   for(int i=0;i<size;i++)
@@ -30,6 +27,6 @@ int main()
 		sum=0;
   }
   
-  cout<<"SUM : "<<max_sum;
+  std::cout<<"SUM : "<<max_sum;
   return 0;
 }

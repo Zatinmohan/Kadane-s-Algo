@@ -5,5 +5,5 @@ The Problem is given to you where you have to find the max sum of a Contiguous s
 
 It can be done with brute force but the problem is with complexity. 
 
-- Brute Force Complexity - n^2
-- Kadane's Algorithm     - n
+- Brute Force Time Complexity - O(n²)
+- Kadane's Algorithm  Time Complexity - O(n)
